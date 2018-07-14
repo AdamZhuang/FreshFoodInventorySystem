@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>admin_page</class>
+ <widget class="QWidget" name="admin_page">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>884</width>
+    <height>651</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QTreeWidget" name="treeWidget">
+     <property name="minimumSize">
+      <size>
+       <width>171</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>171</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget:focus{outline: none;}</string>
+     </property>
+     <property name="indentation">
+      <number>21</number>
+     </property>
+     <property name="rootIsDecorated">
+      <bool>true</bool>
+     </property>
+     <property name="itemsExpandable">
+      <bool>true</bool>
+     </property>
+     <property name="headerHidden">
+      <bool>false</bool>
+     </property>
+     <property name="expandsOnDoubleClick">
+      <bool>true</bool>
+     </property>
+     <column>
+      <property name="text">
+       <string>功能面板</string>
+      </property>
+     </column>
+     <item>
+      <property name="text">
+       <string>用户管理</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>添加用户</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>删除用户</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>修改用户信息</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>查看用户信息</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>仓库管理</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>添加仓库</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>删除仓库</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>修改仓库信息</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>查看仓库信息</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>供应商管理</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>添加供应商</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>删除供应商</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>修改供应商</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>查看所有供应商</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>商品管理</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>添加商品</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>删除商品</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>修改商品信息</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>查看商品信息</string>
+       </property>
+      </item>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="page_1"/>
+     <widget class="QWidget" name="page_2"/>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
